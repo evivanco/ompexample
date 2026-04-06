@@ -5,7 +5,7 @@ int main() {
     clock_t inicio, fin;
     double time_ms;
     int i;
-    int n = 12;
+    int n = 1200;
     inicio = clock();
     @pragma omp parallel 
     for (i = 0; i < n; i++)
